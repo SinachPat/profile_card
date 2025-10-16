@@ -172,7 +172,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
-- GitHub: [Osinachi Patrick] (https://github.com/SinachPat)
+- GitHub: [Osinachi Patrick](https://github.com/SinachPat)
 - Twitter: [Patrick](https://twitter.com/0xsinachpat)
 
 
