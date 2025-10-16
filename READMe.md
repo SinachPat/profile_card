@@ -56,7 +56,7 @@ All elements include the specified `data-testid` attributes:
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/profile-card.git
-   cd profile-card-component
+   cd profile-card
    ```
 
 ## 📱 Responsive Breakpoints
