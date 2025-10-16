@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osinachi Patrick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article class="profile-card" data-testid="test-profile-card" role="article" aria-label="User profile card">
+        <div class="card-layout">
+            <div class="avatar-section">
+                <figure class="avatar-figure">
+                    <img 
+                        src="patrick.jpeg" 
+                        alt="Profile picture of Sarah Johnson"
+                        class="avatar-img"
+                        data-testid="test-user-avatar"
+                    >
+                </figure>
+                <nav class="social-nav" aria-label="Social media links">
+                    <ul class="social-links" data-testid="test-user-social-links">
+                        <li>
+                            <a 
+                                href="https://x.com/0xsinachpat" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-twitter"
+                                aria-label="Visit Sarah's Twitter profile"
+                            >
+                                <span aria-hidden="true">🐦</span> X (Twitter)
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://github.com/sinachpat" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-github"
+                                aria-label="Visit Sarah's GitHub profile"
+                            >
+                                <span aria-hidden="true">💻</span> GitHub
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                                href="https://www.linkedin.com/in/osinachi-patrick/" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                class="social-link"
+                                data-testid="test-user-social-linkedin"
+                                aria-label="Visit Sarah's LinkedIn profile"
+                            >
+                                <span aria-hidden="true">💼</span> LinkedIn
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="content-section">
+                <header class="card-header">
+                    <h1 class="user-name" data-testid="test-user-name">Osinachi Patrick</h1>
+                    <time class="user-time" data-testid="test-user-time" datetime="">0</time>
+                </header>
+
+                <p class="user-bio" data-testid="test-user-bio">
+                    A product engineer with a focus on frontend and design system engineering. Focusing on helping product designers collaborate with engineers.
+                </p>
+
+                <div class="lists-container">
+                    <section class="list-section" aria-labelledby="hobbies-title">
+                        <h2 id="hobbies-title" class="section-title">
+                            <span aria-hidden="true">🎨</span> Hobbies
+                        </h2>
+                        <ul class="list-items" data-testid="test-user-hobbies">
+                            <li class="list-item">Photography</li>
+                            <li class="list-item">Investment & Stock markets</li>
+                            <li class="list-item">Watching My Flatmates</li>
+                            <li class="list-item">Reading product books</li>
+                            <li class="list-item">Eating Nkwobi</li>
+                        </ul>
+                    </section>
+
+                    <section class="list-section dislikes-section" aria-labelledby="dislikes-title">
+                        <h2 id="dislikes-title" class="section-title">
+                            <span aria-hidden="true">🚫</span> Dislikes
+                        </h2>
+                        <ul class="list-items" data-testid="test-user-dislikes">
+                            <li class="list-item">Poorly documented code</li>
+                            <li class="list-item">Traffic jams</li>
+                            <li class="list-item">Cold coffee</li>
+                            <li class="list-item">Unnecessary meetings</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </article>
+<script src="interact.js"></script>
+</body>
+</html>
