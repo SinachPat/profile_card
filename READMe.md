@@ -176,6 +176,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - Twitter: [Patrick](https://twitter.com/0xsinachpat)
 
 
-**Live Demo:** [Profile Card] (https://sinachpat.github.io/profile_card/)
+**Live Demo:** [Profile Card](https://sinachpat.github.io/profile_card/)
 
 **Repository:** [GitHub Repo](https://github.com/SinachPat/profile_card)
