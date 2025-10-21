@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Log form data (in production, you would send this to a server)
-        console.log('Form submitted successfully:');
+        console.log('Form submitted successfully, find details:');
         console.log({
             name: nameInput.value,
             email: emailInput.value,
