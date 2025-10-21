@@ -1,0 +1,180 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osinachi Patrick - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">OP</a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Me</a></li>
+                <li><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="contact-page">
+        <div class="page-container">
+            <header class="page-header">
+                <h1>Get in Touch</h1>
+                <p class="page-subtitle">I'd love to hear from you. Send me a message!</p>
+            </header>
+
+            <div class="contact-content">
+                <form id="contactForm" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="contactName" class="form-label">
+                            Full Name <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="contactName" 
+                            name="name"
+                            class="form-input"
+                            data-testid="test-contact-name"
+                            aria-required="true"
+                            aria-describedby="nameError"
+                            required
+                        >
+                        <span 
+                            id="nameError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-name"
+                            role="alert"
+                            aria-live="polite"
+                        ></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactEmail" class="form-label">
+                            Email Address <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="email" 
+                            id="contactEmail" 
+                            name="email"
+                            class="form-input"
+                            data-testid="test-contact-email"
+                            aria-required="true"
+                            aria-describedby="emailError"
+                            required
+                        >
+                        <span 
+                            id="emailError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-email"
+                            role="alert"
+                            aria-live="polite"
+                        ></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactSubject" class="form-label">
+                            Subject <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="contactSubject" 
+                            name="subject"
+                            class="form-input"
+                            data-testid="test-contact-subject"
+                            aria-required="true"
+                            aria-describedby="subjectError"
+                            required
+                        >
+                        <span 
+                            id="subjectError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-subject"
+                            role="alert"
+                            aria-live="polite"
+                        ></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactMessage" class="form-label">
+                            Message <span class="required" aria-label="required">*</span>
+                        </label>
+                        <textarea 
+                            id="contactMessage" 
+                            name="message"
+                            class="form-input form-textarea"
+                            data-testid="test-contact-message"
+                            aria-required="true"
+                            aria-describedby="messageError"
+                            rows="6"
+                            required
+                        ></textarea>
+                        <span 
+                            id="messageError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-message"
+                            role="alert"
+                            aria-live="polite"
+                        ></span>
+                    </div>
+
+                    <button 
+                        type="submit" 
+                        class="form-submit"
+                        data-testid="test-contact-submit"
+                    >
+                        Send Message
+                    </button>
+
+                    <div 
+                        id="successMessage" 
+                        class="success-message" 
+                        data-testid="test-contact-success"
+                        role="status"
+                        aria-live="polite"
+                        aria-atomic="true"
+                        hidden
+                    >
+                        <span class="success-icon" aria-hidden="true">✓</span>
+                        Thank you for your message! I'll get back to you soon.
+                    </div>
+                </form>
+
+                <aside class="contact-info">
+                    <h2>Other Ways to Connect</h2>
+                    <ul class="contact-links">
+                        <li>
+                            <span class="contact-icon" aria-hidden="true">📧</span>
+                            <a href="mailto:sinachpat@gmail.com">Email me here</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon" aria-hidden="true">🐦</span>
+                            <a href="https://x.com/0xsinachpat" target="_blank" rel="noopener noreferrer">Follow me on Twitter</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon" aria-hidden="true">💼</span>
+                            <a href="https://www.linkedin.com/in/osinachi-patrick/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+                        </li>
+                        <li>
+                            <span class="contact-icon" aria-hidden="true">💻</span>
+                            <a href="https://github.com/sinachpat" target="_blank" rel="noopener noreferrer">GitHub Portfolio</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; 2025 Osinachi Patrick. Built with ❤️.</p>
+    </footer>
+
+    <script src="interact.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
