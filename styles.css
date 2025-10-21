@@ -27,14 +27,13 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 70px;
 }
 
 .nav-logo {
     font-size: 1.5rem;
-    display: none;
     text-align: left;
     font-weight: 700;
     color: #1690a3;
